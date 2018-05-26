@@ -9,7 +9,7 @@ commands:
         description: 'Main-Command'
         permission: 'ol.admin'
     leave:
-        description: 'Leave the game'
+        description: 'Verlässt die Runde
         aliases: [spawn, leave]
     stats:
         description: 'Stats command'
@@ -17,4 +17,4 @@ commands:
         description: 'Adds stats-resetters to an player'
         permission: 'ol.tickets'
     hub:
-        description: 'Back to hub'
+        description: 'Zurück zur hub'
