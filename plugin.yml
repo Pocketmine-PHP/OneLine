@@ -9,7 +9,7 @@ commands:
         description: 'Main-Command'
         permission: 'ol.admin'
     leave:
-        description: 'Verlässt die Runde
+        description: 'Verlässt die Runde'
         aliases: [spawn, leave]
     stats:
         description: 'Stats command'
