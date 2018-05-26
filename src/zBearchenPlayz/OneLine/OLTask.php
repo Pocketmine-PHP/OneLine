@@ -20,4 +20,5 @@ class OLTask extends PluginTask{
             $player->setHealth(20);
             $player->setFood(20);
         }
+    }
 
