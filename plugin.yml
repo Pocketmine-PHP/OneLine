@@ -1,0 +1,20 @@
+name: OneLine
+version: 1.0
+author: zBearchenPlayz
+api: [3.0.0-ALPHA12]
+main: zBearchenPlayz\OneLine\OneLine
+description: 'OneLine in Minecraft'
+commands:
+    ol:
+        description: 'Main-Command'
+        permission: 'ol.admin'
+    leave:
+        description: 'Leave the game'
+        aliases: [spawn, leave]
+    stats:
+        description: 'Stats command'
+    addtickets:
+        description: 'Adds stats-resetters to an player'
+        permission: 'ol.tickets'
+    hub:
+        description: 'Back to hub'
