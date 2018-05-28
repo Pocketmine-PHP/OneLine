@@ -47,7 +47,7 @@ class OneLine extends PluginBase implements Listener{
         
         $this->prefix = $this->cfg->get('prefix');
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getServer()->getScheduler()->scheduleRepeatingTask(new OneLineTask($this), 20);
+        $this->getServer()->getScheduler()->scheduleRepeatingTask(new OneLine($this), 20);
         
         foreach($this->getServer()->getLevels() as $level){
             if($level instanceof Level){
@@ -723,7 +723,7 @@ class OneLine extends PluginBase implements Listener{
     }
 }
 
-class OneLineTask implements PluginTask {
+class OneLine implements PluginTask {
     public function __construct(\pocketmine\plugin\Plugin $owner) {
         $this->plugin = $owner;
         parent::__construct($owner);
