@@ -723,7 +723,7 @@ class OneLine extends PluginBase implements Listener{
     }
 }
 
-class OneLineTask extends PluginTask{
+class OneLineTask implements PluginTask {
     public function __construct(\pocketmine\plugin\Plugin $owner) {
         $this->plugin = $owner;
         parent::__construct($owner);
